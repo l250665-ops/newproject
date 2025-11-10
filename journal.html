@@ -1,35 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Journal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f9f9;
+margin: 0;
+padding: 0;
+}
 
-    <div id="header">
-        <h1>My Daily Journal</h1>
-        <p class="subtitle">Reflections and thoughts of the day</p>
-    </div>
+/* Header box */
+#header {
+border: 2px solid #333;
+margin: 20px;
+padding: 15px;
+background-color: #fff;
+text-align: center;
+font-weight: bold;
+}
 
-    <div id="entry1" class="entry">
-        <h2 class="date">November 10, 2025</h2>
-        <p>
-            Today was a <span class="highlight">beautiful</span> day! I learned how to structure HTML and add CSS borders.
-        </p>
-    </div>
+/* Journal entries */
+.entry {
+border: 2px solid #666;
+margin: 20px;
+padding: 15px;
+background-color: #fafafa;
+float: left;
+width: 40%;
+}
 
-    <div id="entry2" class="entry">
-        <h2 class="date">November 9, 2025</h2>
-        <p>
-            I spent my morning working on <span class="highlight">CSS styling</span> — adding borders, margins, and padding to make my site look neat.
-        </p>
-    </div>
+/* Highlighted words */
+.highlight {
+font-weight: bold;
+color: #d9534f;
+}
 
-    <div id="footer">
-        <p>Created by Fatima Basharat</p>
-    </div>
-
-</body>
-</html>
+/* Footer */
+#footer {
+clear: both;
+border-top: 2px solid #333;
+margin: 20px;
+padding: 10px;
+text-align: center;
+background-color: #eee;
+font-family: 'Georgia', serif;
+font-weight: lighter;
+}
